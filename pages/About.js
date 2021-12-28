@@ -3,17 +3,17 @@ import archImage from "../public/img/st-louis-ocd-arch.jpeg";
 
 export default () => {
   return (
-    <section className="bg-blue-200 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+    <section className=" 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
       <div className="lg:mt-16 sm:mt-12 mt-16 flex lg:flex-row justify-evenly flex-col lg:gap-8 gap-12">
         <div className="w-full xl:w-5/12 lg:w-6/12">
-          <h2 className="font-title lg:text-6xl text-3xl lg:leading-9 leading-7 text-gray-800">
+          <h2 className="font-title lg:text-6xl text-3xl text-blue-800">
             Our mission.
           </h2>
           <p className=" text-base leading-6 mt-4 p-8">
             We are dedicated to providing support to St. Louisians with OCD,
             their families, and friends
           </p>
-          <h3 className="font-title lg:text-4xl text-2xl lg:leading-9 leading-7 text-gray-700 pt-2">
+          <h3 className="font-title lg:text-4xl text-2xl lg:leading-9 leading-7 text-gray-800 pt-2">
             Our goals.
           </h3>
           <ul className="flex flex-col p-4">
@@ -45,8 +45,8 @@ export default () => {
       </div>
       {/* history section */}
       <div className="mt-20 px-5 py-8 mx-auto max-w-4xl sm:px-6 lg:px-8">
-        <h2 className="font-title text-6xl text-center mb-20">est. 1990</h2>
-        <p>
+        <h2 className="font-title text-6xl text-center mb-20 text-blue-700">est. 1990</h2>
+        <p className="text-lg">
           Our meetings are held at Missouri Baptist Medical Center at 3015 North
           Ballas Road Creve Coeur, Missouri.
           <br/><br/>
