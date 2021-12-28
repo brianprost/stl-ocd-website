@@ -3,7 +3,7 @@ import heroPic from '../public/img/stl-ocd-group-therapy-hero.svg'
 
 export default () => {
   return (
-    <div className="bg-white-100">
+    <section className="bg-white-100">
       <div className="container flex px-8 py-4 mx-auto md:flex lg:flex lg:py-48 xl:flex 2xl:flex">
         <div className="flex flex-col justify-evenly w-full lg:flex-row">
           <div className="max-w-lg md:w-full">
@@ -20,6 +20,6 @@ export default () => {
           <Image src={heroPic} alt="" className="object-cover w-full h-full max-w-2xl rounded-md" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
