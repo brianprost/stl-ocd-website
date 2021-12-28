@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Navbar() {
+    // make the navigation titles icons instead
     const [show, setShow] = useState(false);
     return (
         <nav className="w-full border-b">
