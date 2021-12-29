@@ -16,10 +16,12 @@ export const Resources = [
       {
         title: "Awareness Foundation for OCD and Related Disorders",
         url: "http://www.ocdawareness.com/",
+        description: "",
       },
       {
         title: "Anxiety Disorders Association of America",
         url: "http://www.adaa.org/",
+        description: "",
       },
       {
         title: "The Anxiety-Free Child Program",
@@ -66,10 +68,12 @@ export const Resources = [
       {
         title: "Intensive Treatment Providers",
         url: "http://www.ocfoundation.org/ITP.aspx, - A list maintained by the OCF (Obsessive-Compulsive Foundation",
+        description: "",
       },
       {
         title: "Job Accomodation Network",
         url: "http://janweb.icdi.wvu.edu/",
+        description: "",
       },
       {
         title: "Lighthouse Press",
@@ -80,14 +84,17 @@ export const Resources = [
       {
         title: "Mental Health Crisis Services for Eastern Missouri",
         url: "http://www.bhrstl.org/",
+        description: "",
       },
       {
         title: "Menninger OCD Treatment Center",
         url: "http://www.menningerclinic.com/",
+        description: "",
       },
       {
         title: "St. Louis Behavioral Medicine",
         url: "http://www.slbmi.com/",
+        description: "",
       },
       {
         title: "St. Louis Obsessive Compulsive Anonymous",
@@ -102,10 +109,12 @@ export const Resources = [
       {
         title: "Obsessive Compulsive Information Center",
         url: "http://www.miminc.org/",
+        description: "",
       },
       {
         title: "Obsessive-Compulsive World",
         url: "http://www.ocd-world.org.uk/",
+        description: "",
       },
     ],
   },
@@ -126,6 +135,7 @@ export const Resources = [
       {
         title: "ADHD and Addiction - What is the Risk?",
         url: "https://www.discoveryplace.info/adhd-and-addiction-what-is-the-risk",
+        description: "",
       },
       {
         title:
@@ -136,44 +146,54 @@ export const Resources = [
         title:
           "Drugs of Abuse: Interactive Exploration of Drug Effects on the Body",
         url: "http://learn.genetics.utah.edu/content/addiction/abuse/",
+        description: "",
       },
       {
         title: "20 Secret Signs of Addiction",
         url: "https://www.caring.com/articles/20-secret-signs-of-addiction",
+        description: "",
       },
       {
         title: "Treatment Approaches for Drug Addiction",
         url: "https://www.drugabuse.gov/publications/drugfacts/treatment-approaches-drug-addiction",
+        description: "",
       },
       {
         title: "Overdose Emergency: How to Identify One and What to Do",
         url: "http://www.about-addiction.com/overdose-emergency-how-to-identify-one-and-what-to-do/",
+        description: "",
       },
       {
         title: "7 Tips for Mothers of Adult Addicts",
         url: "https://www.psychologytoday.com/blog/lifetime-connections/201410/7-tips-mothers-adult-addicts",
+        description: "",
       },
       {
         title:
           "Addiction in the Waiting Room: How to Go to the Doctor in Sobriety",
         url: "http://www.discoveryplace.info/addiction-waiting-room-how-go-doctor-sobriety",
+        description: "",
       },
       {
         title: "10 Things I Wish I Knew at the Beginning of Sobriety",
         url: "https://www.thefix.com/content/10-things-i-wish-i-knew-beginning-sobriety",
+        description: "",
       },
       {
         title:
           "Helping an Adult Family Member or Friend with a Drug or Alcohol Problem",
         url: "http://www.drugfree.org/want-help-adult-family-member-friend-drug-alcohol-problem-7-suggestions/",
+        description: "",
       },
       {
         title: "13 Sobering Facts About Teen Substance Abuse",
         url: "http://www.everydayhealth.com/kids-health-pictures/13-sobering-facts-about-teen-substance-abuse.aspx",
+        description: "",
       },
       {
         title: "Boundaries with Teens: How to Address Alcohol and Drug Issues",
         url: "http://www.boundariesbooks.com/articles/boundaries-with-kids/alcohol-and-drugs-boundaries-with-teens/",
+        description: "",
       },
       {
         title: "Dual Diagnosis",
@@ -184,18 +204,22 @@ export const Resources = [
       {
         title: "Recovery Resources",
         url: "http://soberrecovery.com/",
+        description: "",
       },
       {
         title: "Trichotillomania Organization",
         url: "http://www.trich.org/",
+        description: "",
       },
       {
         title: "e-mail for children/adolescents and young adults who hoard",
         url: "mailto:chaos@ocfoundation.org",
+        description: "",
       },
       {
         title: "Hoarding - Assistance with Hoarding Cleanup",
         url: "http://hoardingcleanup.com/missouri",
+        description: "",
       },
     ],
   },
@@ -205,6 +229,7 @@ export const Resources = [
       {
         title: "Tourette Syndrome Association",
         url: "http://www.tsa-usa.org/",
+        description: "",
       },
     ],
   },
@@ -215,27 +240,33 @@ export const Resources = [
         title:
           "The Guide to Securing Life-long Accommodations for Adult Children with Special Needs",
         url: "https://www.redfin.com/blog/2016/04/the-guide-to-securing-life-long-accommodations-for-adult-children-with-special-needs.html",
+        description: "",
       },
       {
         title: "Teaching Your Child about Peers with Special Needs",
         url: "https://www.care.com/a/teaching-your-child-about-peers-with-special-needs-0812040913",
+        description: "",
       },
       {
         title: "Creating the Optimal Living Environment for a Child with ADHD",
         url: "http://www.homeadvisor.com/r/creating-the-optimal-living-environment-for-a-child-with-adhd/",
+        description: "",
       },
       {
         title: "Autism Service Dogs, Leash-On-Life",
         url: "http://www.tenderlovingcanines.org/programs/Autism-Service-Dogs.aspx",
+        description: "",
       },
       {
         title:
           "Supports, Modifications, and Accommodations for Students with Disabilities",
         url: "http://www.parentcenterhub.org/repository/accommodations/",
+        description: "",
       },
       {
         title: "20 Incredible Colleges for Students with Special Needs",
         url: "http://www.bestcollegesonline.com/blog/20-incredible-colleges-for-special-needs-students/",
+        description: "",
       },
       {
         title: "Career Guide for Students with Disabilities",
@@ -257,6 +288,7 @@ export const Resources = [
       {
         title: "Guide to Medial Assisting Careers for People with Disabilities",
         url: "https://www.medicalassistantdegrees.net/careers/disability-career-options/",
+        description: "",
       },
     ],
   },
