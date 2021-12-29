@@ -8,7 +8,7 @@ function Navbar() {
       <div className="py-5 md:py-0 container mx-auto px-6 flex items-center justify-between">
         <div aria-label="Home. logo" role="img">
           <img
-            className="w-12 sm:w-auto md:w-auto h-16"
+            className="w-auto h-20"
             src="./img/stl-ocd-nav-logo.png"
             alt="logo"
           />

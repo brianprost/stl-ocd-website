@@ -4,7 +4,7 @@ import archImage from "../public/img/st-louis-ocd-arch.jpeg";
 export default () => {
   return (
     <section className=" 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-      <div className="lg:mt-16 sm:mt-12 mt-16 flex lg:flex-row justify-evenly flex-col lg:gap-8 gap-12">
+      <div className="lg:mt-8 mt-16 flex lg:flex-row justify-evenly flex-col lg:gap-8 gap-12">
         <div className="w-full xl:w-5/12 lg:w-6/12">
           <h2 className="font-title lg:text-6xl text-3xl text-blue-800">
             Our mission.
@@ -18,18 +18,18 @@ export default () => {
           </h3>
           <ul className="flex flex-col p-4">
             <li className="flex flex-row mb-2">
-              <div class="select-none cursor-pointer border border-white rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+              <div class="border border-white rounded-md flex flex-1 items-center p-4">
               Keep up with and share information and resources pertinent to
               Obsessive Compulsive Disorder
               </div>
             </li>
             <li className="flex flex-row mb-2">
-              <div class="select-none cursor-pointer border border-white rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+              <div class="border border-white rounded-md flex flex-1 items-center p-4">
               Educate the general public about Obsessive Compulsive Disorder
               </div>
             </li>
             <li className="flex flex-row mb-2">
-              <div class="select-none cursor-pointer border border-white rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+              <div class="border border-white rounded-md flex flex-1 items-center p-4">
               Reach persons with Obsessive Compulsive Disorder who have not
               sought treatment
               </div>
