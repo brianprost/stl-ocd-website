@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div
-      className="bg-white-100 pb-12 overflow-y-hidden"
+      className="overflow-y-hidden"
       style={{ minHeight: 700 }}
     >
       <Navbar />
