@@ -1,4 +1,4 @@
-import { Articles } from "./data";
+import { Articles } from "../../data/Articles";
 
 export default () => {
     return (

@@ -1,5 +1,5 @@
 import Navbar from '../Navbar'
-import { Books } from './data'
+import { Books } from '../../data/Books'
 
 export default () => {
     return (

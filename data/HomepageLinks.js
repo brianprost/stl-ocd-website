@@ -1,4 +1,4 @@
-export const homepageLinks = [
+export const HomepageLinks = [
     {
         title: "ShowMeOCD",
         description: "Our parter OCD Support Group led by Gregg Sansone that meets on Wednesday evenings.",
