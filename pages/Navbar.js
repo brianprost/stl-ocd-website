@@ -21,7 +21,7 @@ function Navbar() {
         <a href="#" class="flex">
           <img
             className="w-auto h-20"
-            src="./img/stl-ocd-nav-logo.png"
+            src="./img/stl-ocd-nav-logo.webp"
             alt="logo"
           />
         </a>

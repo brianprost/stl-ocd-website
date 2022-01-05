@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "informationSectionImg": "url('/public/img/st-louis-ocd-resources.svg')",
+      },
       fontFamily: {
         'title': ['Italiana', ...defaultTheme.fontFamily.serif],
         'sans': ['"Work Sans"', ...defaultTheme.fontFamily.sans],

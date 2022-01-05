@@ -1,5 +1,5 @@
 import Image from "next/image";
-import archImage from "../public/img/st-louis-ocd-arch.jpeg";
+import archImage from "../public/img/st-louis-ocd-arch.webp";
 
 export default () => {
   return (
