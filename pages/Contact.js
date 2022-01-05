@@ -3,7 +3,7 @@ import Link from "next/link";
 export default () => {
   return (
     <>
-      <section className="bg-white-100">
+      <section className="bg-white-100" id="contact">
         <div className="flex px-8 py-4 mx-auto py-48">
           <div className="flex flex-row justify-evenly w-full lg:flex-row">
             <div className="max-w-lg md:w-full">

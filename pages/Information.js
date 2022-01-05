@@ -3,7 +3,7 @@ import { HomepageLinks } from "../data/HomepageLinks";
 
 export default () => {
   return (
-    <section className="bg-blue-900 p-20">
+    <section className="bg-blue-900 p-20 md:py-36 " id="information">
       <h2 className="text-center lg:text-right font-title text-6xl text-gray-100 pb-10">Information</h2>
       <div className="flex items-center lg:justify-evenly">
         <ul className="flex flex-wrap list-none justify-center">
