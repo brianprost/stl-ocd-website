@@ -1,6 +1,6 @@
 export default () => {
   return (
-    <section className="flex justify-center bg-white-100 pb-12 h-full">
+    <section className="flex justify-center bg-white-100 pb-12 h-full" id="home">
       {/* <div className="grid px-8 py-4 mx-auto lg:pt-48 lg:pb-16"> */}
       <div className="flex justify-center items-center px-8 py-4 lg:pt-48 lg:pb-16 ">
           <div className="w-5/6 md:w-1/2 ">
