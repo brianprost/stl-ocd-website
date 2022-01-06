@@ -3,7 +3,7 @@ import archImage from "../public/img/st-louis-ocd-arch.webp";
 
 export default () => {
   return (
-    <section className=" 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 px-10 py-12 " id="about">
+    <section className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 px-10 py-12 " id="about">
       <div className="lg:mt-8 mt-16 flex lg:flex-row justify-evenly flex-col lg:gap-8 gap-12 bg-gray-200 rounded-3xl py-20 px-10 border-4 border-gray-600">
         <div className="w-full xl:w-5/12 lg:w-6/12">
           <h2 className="font-title lg:text-6xl text-4xl text-blue-800">

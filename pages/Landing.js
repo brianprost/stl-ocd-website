@@ -1,11 +1,8 @@
-import Image from "next/image";
-import heroPic from "../public/img/stl-ocd-group-therapy-hero.svg";
-
 export default () => {
   return (
-    <section className="bg-white-100 pb-12 ">
+    <section className="flex justify-center bg-white-100 pb-12 h-full">
       {/* <div className="grid px-8 py-4 mx-auto lg:pt-48 lg:pb-16"> */}
-      <div className="flex justify-center items-center px-8 py-4 lg:pt-48 lg:pb-16">
+      <div className="flex justify-center items-center px-8 py-4 lg:pt-48 lg:pb-16 ">
           <div className="w-5/6 md:w-1/2 ">
             <h1 className="text-7xl py-16 md:pb-0 md:text-8xl lg:text-7xl xl:text-8xl tracking-wide text-center text-gray-900 font-title md:leading-2 ">
               Helping Hands for Those With
