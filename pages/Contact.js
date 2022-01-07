@@ -4,7 +4,7 @@ export default () => {
   return (
     <>
       <section className="bg-white-100" id="contact">
-        <div className="flex px-8 py-4 mx-auto py-48">
+        <div className="flex px-8 mx-auto py-48">
           <div className="flex flex-row justify-evenly w-full lg:flex-row">
             <div className="max-w-lg md:w-full">
               <h1 className="text-8xl md:text-8xl lg:text-7xl xl:text-8xl tracking-wide text-center text-gray-900 font-title md:leading-2 pb-20">

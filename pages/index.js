@@ -5,14 +5,16 @@ import About from "./About";
 import Resources from "./Information";
 import Contact from "./Contact";
 
+
 export default function Home() {
   return (
+    <>
     <div className="h-screen flex flex-col ">
-      <Navbar />
       <Landing />
       <About />
       <Resources />
       <Contact />
     </div>
+    </>
   );
 }
