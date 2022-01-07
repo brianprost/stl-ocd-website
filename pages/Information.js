@@ -3,8 +3,9 @@ import { HomepageLinks } from "../data/HomepageLinks";
 
 export default () => {
   return (
-    <section className="bg-blue-900 p-20 md:py-36 " id="information">
-      <h2 className="text-center lg:text-right font-title text-6xl text-gray-100 pb-10">Information</h2>
+    <section className="bg-gradient-to-bl from-blue-900 to-blue-700 p-20 md:py-36 " id="information">
+      <div className="container flex flex-col">
+      <h2 className="text-center lg:text-right lg:pr-20 lg:mb-10 font-title text-6xl text-gray-100 pb-10">Information</h2>
       <div className="flex items-center lg:justify-evenly">
         <ul className="flex flex-wrap list-none justify-center">
         {HomepageLinks.map((HomepageLink) => (
@@ -23,6 +24,7 @@ export default () => {
           </li>
         ))}
         </ul>
+      </div>
       </div>
     </section>
   );
