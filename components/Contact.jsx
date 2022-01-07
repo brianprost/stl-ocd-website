@@ -19,8 +19,16 @@ export default () => {
               <h2 className="text-2xl tracking-wider font-black text-center text-gray-700">
                 314-291-7566
               </h2>
-              <div className="flex items-center justify-center">
-                <button className="mt-40 rounded-xl w-3/5 text-2xl shadow-lg text-white bg-gray-900 p-2 hover:bg-blue-800  focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-blue-800 font-bold m-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Join Our Newsletter</button>
+              <div className="flex justify-center items-center">
+                <Link href="http://eepurl.com/dx6GCT">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="mt-40 rounded-xl w-3/5 text-2xl shadow-lg text-white bg-gray-900 p-2 hover:bg-blue-800 focus:outline-none text-center focus:ring-2 focus:ring-offset-4 focus:ring-blue-800 font-bold m-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+                  >
+                    Join Our Newsletter
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
