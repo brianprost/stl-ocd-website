@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar";
 import { Books } from "../../data/Books";
 
 export default () => {
@@ -13,7 +12,7 @@ export default () => {
                   <h3 class="font-bold text-center mb-6 text-3xl tracking-normal text-black select-all">
                     {book.Title}
                   </h3>
-              <p class="mb-2">Author(s): {book.Authors}</p>
+              <p class="mb-2">Author(s): <span className="select-all">{book.Authors}</span></p>
               <p class="mb-2 select-none">ISBN-13: <span className="select-all">{book.ISBN13}</span></p>
             </div>
           ))}
