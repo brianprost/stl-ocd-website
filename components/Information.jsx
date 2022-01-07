@@ -18,9 +18,8 @@ export default () => {
               <li className="flex p-2 m-4">
                 <Link
                   href={HomepageLink.link}
-                  
                 >
-                  <a className="block p-6 max-w-sm bg-inherit rounded-lg border border-gray-100 shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg hover:bg-blue-500">
+                  <a className="block p-6 max-w-sm bg-inherit rounded-lg border border-gray-100 shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg hover:bg-blue-500" onClick={() => (window).scrollTop(position)}>
                   <h5 className="font-title text-center mb-6 text-2xl tracking-tight text-white lg:text-4xl">
                     {HomepageLink.title}
                   </h5>

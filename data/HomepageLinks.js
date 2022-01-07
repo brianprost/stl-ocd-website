@@ -1,10 +1,5 @@
 export const HomepageLinks = [
     {
-        title: "ShowMeOCD",
-        description: "Our parter OCD Support Group led by Gregg Sansone that meets on Wednesday evenings.",
-        link: "https://showmeocd.wordpress.com/support-groups/",
-    },
-    {
         title: "Slides & Articles",
         description: "Slides/handouts from former meetings, and informative articles to download or print.",
         link: "/articles",

@@ -10,7 +10,7 @@ function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="container flex flex-wrap items-center justify-between h-20">
             <div className="h-3/4 md:h-full relative">
-              <Link href="/#" >
+              <Link href="/" >
                 <a>
               <img
                 src="./img/stl-ocd-nav-logo.webp"
@@ -23,7 +23,7 @@ function Navbar() {
             </div>
             <div className="hidden w-full md:block md:w-auto">
               <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
-                <Link href="/#">
+                <Link href="/#home">
                   <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125">
                     Home
                   </a>
@@ -106,7 +106,7 @@ function Navbar() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/#">
+                <Link href="/#home">
                   <a
                     className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
                     onClick={() => setIsOpen(!isOpen)}

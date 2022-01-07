@@ -14,6 +14,11 @@ export const ocdLinksResources = {
   resourceSectionTitle: "OCD Links",
   resources: [
     {
+      title: "ShowMeOCD",
+      url: "https://showmeocd.wordpress.com/support-groups/",
+      description: "Our parter OCD Support Group led by Gregg Sansone that meets on Wednesday evenings.",
+  },
+    {
       title: "Awareness Foundation for OCD and Related Disorders",
       url: "http://www.ocdawareness.com/",
       description: "",
