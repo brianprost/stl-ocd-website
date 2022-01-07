@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Landing from "./Landing";
-import Navbar from "./Navbar";
-import About from "./About";
-import Resources from "./Information";
-import Contact from "./Contact";
+import Landing from "../components/Landing";
+import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Resources from "../components/Information";
+import Contact from "../components/Contact";
 
 
 export default function Home() {
