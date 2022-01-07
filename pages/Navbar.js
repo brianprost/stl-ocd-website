@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
-import Image from "next/image";
+import Link from "next/link"
 
 function Navbar() {
   // make the navigation titles icons instead
@@ -19,31 +19,31 @@ function Navbar() {
               </div>
               <div className="hidden w-full md:block md:w-auto">
                 <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
-                  <a
+                  <Link
                     href="/"
                     className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    Home
-                  </a>
+                    <a>Home</a>
+                  </Link>
 
-                  <a
-                    href="#about"
+                  <Link
+                    href="/#about"
                     className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    About
-                  </a>
-                  <a
-                    href="#information"
+                    <a>About</a>
+                  </Link>
+                  <Link
+                    href="/#information"
                     className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    Information
-                  </a>
-                  <a
-                    href="#contact"
+                    <a>Information</a>
+                  </Link>
+                  <Link
+                    href="/#contact"
                     className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    Contact
-                  </a>
+                    <a>Contact</a>
+                  </Link>
                 </div>
               </div>
 
@@ -99,37 +99,45 @@ function Navbar() {
           enter="transition ease-out duration-500 transform"
           enterFrom="opacity-0 scale-95"
           enterTo="opacity-100 scale-100"
-          leave="transition ease-in duration-125 transform"
+          leave="transition ease-in duration-75 transform"
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <Link href="/#">
                 <a
-                  href="#"
                   className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Home
+                  <a>Home</a>
                 </a>
+                </Link>
+                <Link href="/#about">
                 <a
-                  href="#about"
                   className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  About
+                  <a>About</a>
                 </a>
+                </Link>
+                <Link href="/#information">
                 <a
-                  href="#information"
                   className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Information
+                  <a>Information</a>
                 </a>
+                </Link>
+                <Link href="/#contact">
                 <a
-                  href="#contact"
                   className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Contact
+                  <a>Contact</a>
                 </a>
+                </Link>
               </div>
             </div>
           )}
