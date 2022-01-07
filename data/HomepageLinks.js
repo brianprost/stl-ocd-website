@@ -5,13 +5,18 @@ export const HomepageLinks = [
         link: "https://showmeocd.wordpress.com/support-groups/",
     },
     {
-        title: "Articles & Books",
-        description: "Recommended books and articles about Obsessive Compulsive Disorder.",
-        link: "https://stlocd.org/reading",
+        title: "Slides & Articles",
+        description: "Slides/handouts from former meetings, and informative articles to download or print.",
+        link: "/articles",
+    },
+    {
+        title: "Books",
+        description: "Recommended books about Obsessive Compulsive Disorder.",
+        link: "/books",
     },
     {
         title: "Resources",
-        description: "Slides & handouts from meetings as well as external links for Obsessive Compulsive Disorder information.",
-        link: "https://stlocd.org/resources",
+        description: "Links for Obsessive Compulsive Disorder information from other websites and partners.",
+        link: "/resources",
     },
 ]
