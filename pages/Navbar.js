@@ -7,21 +7,21 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      {/* <nav class="flex bg-inherit border-gray-200 px-2 sm:px-4 py-2.5 rounded fixed left-0 right-0 bg-white">
-        <div class="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="#" class="flex">
+      {/* <nav className="flex bg-inherit border-gray-200 px-2 sm:px-4 py-2.5 rounded fixed left-0 right-0 bg-white">
+        <div className="container flex flex-wrap justify-between items-center mx-auto">
+          <a href="#" className="flex">
             <img
               className="w-auto h-20"
               src="./img/stl-ocd-nav-logo.webp"
               alt="logo"
             />
           </a>
-          <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-            <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
+          <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
               <li>
                 <a
                   href="#"
-                  class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125"
+                  className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125"
                   aria-current="page"
                 >
                   Home
@@ -30,7 +30,7 @@ function Navbar() {
               <li>
                 <a
                   href="#about"
-                  class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
+                  className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                 >
                   About
                 </a>
@@ -38,7 +38,7 @@ function Navbar() {
               <li>
                 <a
                   href="#information"
-                  class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
+                  className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                 >
                   Information
                 </a>
@@ -46,7 +46,7 @@ function Navbar() {
               <li>
                 <a
                   href="#contact"
-                  class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
+                  className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                 >
                   Contact
                 </a>
@@ -71,7 +71,7 @@ function Navbar() {
               <div className="hidden w-full md:block md:w-auto">
                 <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
                   <a
-                    href="#"
+                    href="/"
                     className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125"
                   >
                     Home
@@ -79,19 +79,19 @@ function Navbar() {
 
                   <a
                     href="#about"
-                    class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
+                    className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
                     About
                   </a>
                   <a
                     href="#information"
-                    class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
+                    className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
                     Information
                   </a>
                   <a
                     href="#contact"
-                    class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
+                    className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
                     Contact
                   </a>
