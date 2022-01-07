@@ -5,16 +5,21 @@ import Link from "next/link";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="fixed w-full object-cover">
+    <div className="fixed w-full object-cover mb-1">
       <nav className="bg-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="container flex flex-wrap items-center justify-between h-20">
             <div className="h-3/4 md:h-full relative">
+              <Link href="/#" >
+                <a>
               <img
                 src="./img/stl-ocd-nav-logo.webp"
                 alt="st-louis-ocd-logo"
                 className="h-full"
+                onClick={() => setIsOpen(false)}
               />
+              </a>
+              </Link>
             </div>
             <div className="hidden w-full md:block md:w-auto">
               <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
