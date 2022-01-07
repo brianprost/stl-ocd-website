@@ -5,7 +5,7 @@ import Link from "next/link";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="fixed w-full object-cover mb-1">
+    <header className="fixed w-full object-cover mb-1">
       <nav className="bg-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="container flex flex-wrap items-center justify-between h-20">
@@ -143,7 +143,7 @@ function Navbar() {
           )}
         </Transition>
       </nav>
-    </div>
+    </header>
   );
 }
 
