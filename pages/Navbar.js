@@ -7,61 +7,10 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      {/* <nav className="flex bg-inherit border-gray-200 px-2 sm:px-4 py-2.5 rounded fixed left-0 right-0 bg-white">
-        <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="#" className="flex">
-            <img
-              className="w-auto h-20"
-              src="./img/stl-ocd-nav-logo.webp"
-              alt="logo"
-            />
-          </a>
-          <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125"
-                  aria-current="page"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#information"
-                  className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
-                >
-                  Information
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        </nav> */}
-      {/*  */}
-      {/*  */}
-      {/*  */}
       <nav className="bg-white fixed w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="container flex flex-wrap items-center justify-between h-20">
-              <div className="h-full relative">
+              <div className="h-3/4 md:h-full relative">
                 <img
                   src="./img/stl-ocd-nav-logo.webp"
                   alt="st-louis-ocd-logo"
@@ -159,25 +108,25 @@ function Navbar() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="#"
-                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-sm text-center font-sans"
+                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-sm text-center font-sans"
+                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
                 >
                   About
                 </a>
                 <a
                   href="#information"
-                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-sm text-center font-sans"
+                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
                 >
                   Information
                 </a>
                 <a
                   href="#contact"
-                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-sm text-center font-sans"
+                  className="bg-neutral-100 text-blue-700 hover:bg-blue-100 border border-blue-800 text-2xl block px-3 py-6 rounded-3xl text-center font-sans"
                 >
                   Contact
                 </a>
