@@ -6,8 +6,8 @@ function Navbar() {
   // make the navigation titles icons instead
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <section>
-      <nav className="bg-white fixed w-full">
+    <div className="fixed w-full object-cover">
+      <nav className="bg-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="container flex flex-wrap items-center justify-between h-20">
               <div className="h-3/4 md:h-full relative">
@@ -21,28 +21,24 @@ function Navbar() {
                 <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
                   <Link
                     href="/"
-                    className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    <a>Home</a>
+                    <a className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 hover:scale-125">Home</a>
                   </Link>
 
                   <Link
                     href="/#about"
-                    className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    <a>About</a>
+                    <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125">About</a>
                   </Link>
                   <Link
                     href="/#information"
-                    className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    <a>Information</a>
+                    <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125">Information</a>
                   </Link>
                   <Link
                     href="/#contact"
-                    className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125"
                   >
-                    <a>Contact</a>
+                    <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125">Contact</a>
                   </Link>
                 </div>
               </div>
@@ -143,7 +139,7 @@ function Navbar() {
           )}
         </Transition>
       </nav>
-    </section>
+    </div>
   );
 }
 
