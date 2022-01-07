@@ -18,18 +18,18 @@ export default () => {
           </h3>
           <ul className="flex flex-col p-4">
             <li className="flex flex-row mb-2">
-              <div class="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
+              <div className="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
               Keep up with and share information and resources pertinent to
               Obsessive Compulsive Disorder
               </div>
             </li>
             <li className="flex flex-row mb-2">
-              <div class="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
+              <div className="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
               Educate the general public about Obsessive Compulsive Disorder
               </div>
             </li>
             <li className="flex flex-row mb-2">
-              <div class="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
+              <div className="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
               Reach persons with Obsessive Compulsive Disorder who have not
               sought treatment
               </div>
