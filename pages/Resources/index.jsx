@@ -1,4 +1,4 @@
-import { resourceCategories } from "../../data/Resources";
+import { Resources } from "../../data/Resources";
 
 export default () => {
   return (
@@ -9,11 +9,15 @@ export default () => {
         </h1>
         <div className="container bg-white">
           <nav className="flex flex-col justify-center sm:flex-row">
-              {resourceCategories.map((resourceCategory) => (
-                <button className="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
-                    {resourceCategory}
-                </button>
-              ))};
+            {Object.keys(Resources).map((resourceCategory) => (
+              <button className="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
+                {resourceCategory}
+              </button>,
+              {Resources[resourceCategory].items.map((item) {
+                <li>
+                {item}</li>
+              })
+              ))}
             <button className="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
               Tab 3
             </button>
