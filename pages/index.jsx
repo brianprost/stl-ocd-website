@@ -4,7 +4,6 @@ import About from "../components/About";
 import Resources from "../components/Information";
 import Contact from "../components/Contact";
 
-
 export default function Home() {
   return (
     <>
