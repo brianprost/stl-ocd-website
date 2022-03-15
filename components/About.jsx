@@ -4,48 +4,52 @@ import archImage from "../public/img/st-louis-ocd-arch.webp";
 const AboutSection = () => {
   return (
     <section
-      className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 px-10 py-12 "
+      className="px-10 py-12 md:py-12 lg:py-16 lg:px-20 2xl:container 2xl:mx-auto "
       id="about"
     >
-      <div className="lg:mt-8 mt-16 flex lg:flex-row justify-evenly flex-col lg:gap-8 gap-12 bg-gray-200 rounded-3xl py-20 px-10 border-4 border-gray-600">
-        <div className="w-full xl:w-5/12 lg:w-6/12">
-          <h2 className="font-title lg:text-6xl text-4xl text-blue-800">
+      <div className="mt-16 flex flex-col justify-evenly gap-12 rounded-3xl border-4 border-gray-600 bg-gray-200 py-20 px-10 lg:mt-8 lg:flex-row lg:gap-8">
+        <div className="w-full lg:w-6/12 xl:w-5/12">
+          <h2 className="font-title text-4xl text-blue-800 lg:text-6xl">
             Our mission.
           </h2>
-          <p className=" text-base leading-6 mt-4 p-8">
+          <p className=" mt-4 p-8 text-base leading-6">
             We are dedicated to providing support to St. Louisians with OCD,
             their families, and friends
           </p>
-          <h3 className="font-title lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 pt-2 pb-2">
+          <h3 className="pt-2 pb-2 font-title text-3xl leading-7 text-gray-800 lg:text-4xl lg:leading-9">
             Our goals.
           </h3>
           <ul className="flex flex-col p-4">
-            <li className="flex flex-row mb-2">
-              <div className="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
+            <li className="mb-2 flex flex-row">
+              <div className="flex flex-1 items-center rounded-md border border-white bg-gray-300 p-4">
                 Keep up with and share information and resources pertinent to
                 Obsessive Compulsive Disorder
               </div>
             </li>
-            <li className="flex flex-row mb-2">
-              <div className="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
+            <li className="mb-2 flex flex-row">
+              <div className="flex flex-1 items-center rounded-md border border-white bg-gray-300 p-4">
                 Educate the general public about Obsessive Compulsive Disorder
               </div>
             </li>
-            <li className="flex flex-row mb-2">
-              <div className="bg-gray-300 border border-white rounded-md flex flex-1 items-center p-4">
+            <li className="mb-2 flex flex-row">
+              <div className="flex flex-1 items-center rounded-md border border-white bg-gray-300 p-4">
                 Reach persons with Obsessive Compulsive Disorder who have not
                 sought treatment
               </div>
             </li>
           </ul>
         </div>
-        <div className="hidden md:hidden lg:flex items-center w-full lg:w-1/3 ">
-          <img src="./img/st-louis-ocd-arch.webp" className="rounded-2xl " />
+        <div className="hidden w-full items-center md:hidden lg:flex lg:w-1/3 ">
+          <img
+            src="./img/st-louis-ocd-arch.webp"
+            className="rounded-2xl "
+            alt="st. louis arch"
+          />
         </div>
       </div>
       {/* history section */}
-      <div className="mt-20 px-5 py-8 mx-auto max-w-4xl sm:px-6 lg:px-8">
-        <h2 className="font-title text-6xl text-center mb-20 text-blue-700 underline underline-offset-auto ">
+      <div className="mx-auto mt-20 max-w-4xl px-5 py-8 sm:px-6 lg:px-8">
+        <h2 className="mb-20 text-center font-title text-6xl text-blue-700 underline underline-offset-auto ">
           est. 1990
         </h2>
         <p className="text-lg">
