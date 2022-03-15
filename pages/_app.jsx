@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import "../styles/globals.css";
 import "@fontsource/italiana";
-import "@fontsource/work-sans";
+import "@fontsource/work-sans/variable.css";
 
 function MyApp({ Component, pageProps }) {
   return (
