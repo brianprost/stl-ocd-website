@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default () => {
+const ContactSection = () => {
   return (
     <>
       <section className="bg-white-100" id="contact">
@@ -37,3 +37,5 @@ export default () => {
     </>
   );
 };
+
+export default ContactSection;

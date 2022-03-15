@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
 
-function Navbar() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="w-full object-cover mb-1">

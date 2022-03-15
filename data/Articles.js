@@ -1,5 +1,16 @@
 export const Articles = [
   {
+    link: "http://www.psychologytoday.com/blog/beyond-the-doubt",
+    title: "Beyond the Doubt",
+    description:
+      "Psychology Today - An inside perspective on life with OCD and the lessons of uncertainty.",
+  },
+  {
+    title: "20 Secret Signs of Addiction",
+    url: "https://www.caring.com/articles/20-secret-signs-of-addiction",
+    description: "",
+  },
+  {
     link: "http://stlocd.org/wp-content/uploads/2016/08/nimhanxiety.pdf",
     title: "Anxiety Disorders",
     description:

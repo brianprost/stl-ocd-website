@@ -1,32 +1,49 @@
+import { useState, useEffect } from "react";
+import Resource from "../../components/Resource.component";
 import { Resources } from "../../data/Resources";
 
-export default () => {
+const ResourcesPage = () => {
+  // const [resources, setResources] = useState([]);
+  // const getResources = () => {
+  //   fetch("../../data/Resources.json", {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   })
+  //     .then((response) => {
+  //       console.log(response);
+  //       return response.json();
+  //     })
+  //     .then((myJson) => {
+  //       console.log(myJson);
+  //       setResources(myJson);
+  //     });
+  // };
+
+  // useEffect(() => {
+  //   GetResources();
+  // }, []);
+
   return (
     <>
-      <div className="antialiased container w-full md:px-4 mx-auto py-20">
-        <h1 className="text-6xl lg:text-7xl text-center font-title text-blue-800 my-10 drop-shadow-md">
-          External Resources
+      <div className="container mx-auto w-full py-20 antialiased md:px-4">
+        <h1 className="my-10 text-center font-title text-6xl text-blue-800 drop-shadow-md lg:text-7xl">
+          Resources
         </h1>
-        <div className="container bg-white">
-          <nav className="flex flex-col justify-center sm:flex-row">
-            {Object.keys(Resources).map((resourceCategory) => (
-              <button className="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
-                {resourceCategory}
-              </button>,
-              {Resources[resourceCategory].items.map((item) {
-                <li>
-                {item}</li>
-              })
-              ))}
-            <button className="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
-              Tab 3
-            </button>
-            <button className="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
-              Tab 4
-            </button>
-          </nav>
+        <div className="mlg:grid-cols-3 mx-auto space-y-6 px-10 md:grid md:grid-cols-2 md:gap-10 md:space-y-0 md:px-0 lg:grid-cols-3">
+          {Resources.map((resource) => (
+            <Resource
+              title={resource.title}
+              key={resource.title}
+              description={resource.description}
+              link={resource.link}
+            ></Resource>
+          ))}
         </div>
       </div>
     </>
   );
 };
+
+export default ResourcesPage;
