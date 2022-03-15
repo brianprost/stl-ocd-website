@@ -1,6 +1,6 @@
 export const Resources = [
     {
-        "title": "www.needymeds.org",
+        "title": "NeedyMeds",
         "link": "http://www.needymeds.org/",
         "description": "This is a centralized website for those in need of assistance with paying for medicaitons.",
         "tags": ["financial", "medication"]
