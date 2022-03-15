@@ -1,22 +1,20 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        "informationSectionImg": "url('/public/img/st-louis-ocd-resources.svg')",
+        informationSectionImg: "url('/public/img/st-louis-ocd-resources.svg')",
       },
       fontFamily: {
-        'title': ['Italiana', ...defaultTheme.fontFamily.serif],
-        'sans': ['"Work Sans"', ...defaultTheme.fontFamily.sans],
-      }
+        title: ["Italiana", ...defaultTheme.fontFamily.serif],
+        sans: ['"Work SansVariable"', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
-  plugins: [
-    require("tailwind-animatecss")
-  ],
-}
+  plugins: [require("tailwind-animatecss")],
+};
