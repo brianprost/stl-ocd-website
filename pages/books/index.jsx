@@ -3,13 +3,13 @@ import { Books } from "../../data/Books";
 
 const BooksPage = () => {
   return (
-    <div className="antialiased container w-full md:px-4 mx-auto lg:py-20">
-      <h1 className="text-6xl lg:text-7xl text-center font-title text-blue-800 my-10 drop-shadow-md">
+    <div className="container mx-auto w-full md:px-4 lg:py-20">
+      <h1 className="my-10 text-center font-title text-6xl text-blue-800 drop-shadow-md lg:text-7xl">
         Books
       </h1>
-      <div className="md:grid lg:grid-cols-3 md:grid-cols-2 mlg:grid-cols-3 md:gap-10 space-y-6 md:space-y-0 px-10 md:px-0 mx-auto">
+      <div className="mx-auto grid px-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 lg:space-y-0 lg:px-0 xl:grid-cols-4">
         {Books.map((book) => (
-          <Book book={book} key={book.Title}/>
+          <Book book={book} key={book.Title} />
         ))}
       </div>
     </div>
