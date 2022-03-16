@@ -5,7 +5,7 @@ import Article from "../../components/Article.component";
 const ArticlesPage = () => {
   return (
     <>
-      <div className="container w-full md:px-4 mx-auto py-20 ">
+      <div className="container w-full md:px-4 mx-auto lg:py-20 ">
         <h1 className="text-6xl lg:text-7xl text-center font-title text-blue-800 mt-10 mb-20 drop-shadow-md">
           Articles
         </h1>

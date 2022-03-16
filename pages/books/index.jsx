@@ -3,7 +3,7 @@ import { Books } from "../../data/Books";
 
 const BooksPage = () => {
   return (
-    <div className="antialiased container w-full md:px-4 mx-auto py-20">
+    <div className="antialiased container w-full md:px-4 mx-auto lg:py-20">
       <h1 className="text-6xl lg:text-7xl text-center font-title text-blue-800 my-10 drop-shadow-md">
         Books
       </h1>

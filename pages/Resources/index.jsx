@@ -27,7 +27,7 @@ const ResourcesPage = () => {
 
   return (
     <>
-      <div className="container mx-auto w-full py-20 antialiased md:px-4">
+      <div className="container mx-auto w-full lg:py-20 antialiased md:px-4">
         <h1 className="my-10 text-center font-title text-6xl text-blue-800 drop-shadow-md lg:text-7xl">
           Resources
         </h1>

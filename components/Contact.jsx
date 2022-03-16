@@ -4,27 +4,30 @@ const ContactSection = () => {
   return (
     <>
       <section className="bg-white-100" id="contact">
-        <div className="flex px-8 mx-auto py-48">
-          <div className="flex flex-row justify-evenly w-full lg:flex-row">
+        <div className="mx-auto flex px-8 py-48">
+          <div className="flex w-full flex-row justify-evenly lg:flex-row">
             <div className="max-w-lg md:w-full">
-              <h1 className="text-8xl md:text-8xl lg:text-7xl xl:text-8xl tracking-wide text-center text-gray-900 font-title md:leading-2 pb-20">
+              <h1 className="md:leading-2 pb-20 text-center font-title text-8xl tracking-wide text-gray-900 md:text-8xl lg:text-7xl xl:text-8xl">
                 <span className="text-blue-800">Contact</span> Us
               </h1>
-              <h2 className="text-2xl tracking-tight font-black text-center text-gray-700">
-                St. Louis OCD Support Group
-              </h2>
-              <h2 className="text-2xl tracking-wide font-black text-center text-gray-700">
-                stlocd@swbell.net
-              </h2>
-              <h2 className="text-2xl tracking-wider font-black text-center text-gray-700">
-                314-291-7566
-              </h2>
-              <div className="flex justify-center items-center">
+              {[
+                "St. Louis OCD Support Group",
+                "stlocd@swbell.net",
+                "314-291-7566",
+              ].map((item) => (
+                <h2
+                  className="text-center text-2xl tracking-tight text-gray-700"
+                  key={item}
+                >
+                  {item}
+                </h2>
+              ))}
+              <div className="flex items-center justify-center">
                 <Link href="http://eepurl.com/dx6GCT">
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="mt-40 rounded-xl w-3/5 text-2xl shadow-lg text-white bg-gray-900 p-2 hover:bg-blue-800 focus:outline-none text-center focus:ring-2 focus:ring-offset-4 focus:ring-blue-800 font-bold m-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+                    className="m-8 mt-40 w-3/5 transform rounded-xl bg-gray-900 p-2 text-center text-2xl text-white shadow-lg transition duration-500 ease-in-out  hover:-translate-y-1 hover:bg-blue-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-4"
                   >
                     Join Our Newsletter
                   </a>

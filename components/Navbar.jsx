@@ -22,7 +22,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="hidden w-full md:block md:w-auto">
-              <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-bold tracking-widest">
+              <div className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 tracking-widest">
                 <Link href="/#home">
                   <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:scale-125">
                     Home
