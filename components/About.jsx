@@ -1,10 +1,7 @@
-import Image from "next/image";
-import archImage from "../public/img/st-louis-ocd-arch.webp";
-
 const AboutSection = () => {
   return (
     <section
-      className="px-10 py-12 md:py-12 lg:py-16 lg:px-20 2xl:container 2xl:mx-auto "
+      className="px-10 py-2 md:py-2 md:pb-16 lg:px-20 lg:pt-6 lg:pb-12 2xl:container 2xl:mx-auto"
       id="about"
     >
       <div className="mt-16 flex flex-col justify-evenly gap-12 rounded-3xl border-4 border-gray-600 bg-gray-200 py-20 px-10 lg:mt-8 lg:flex-row lg:gap-8">

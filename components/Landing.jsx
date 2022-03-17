@@ -1,10 +1,7 @@
 const Landing = () => {
   return (
-    <section
-      className="bg-white-100 flex h-full justify-center pb-12"
-      id="home"
-    >
-      <div className="flex items-center justify-center px-8 pt-20 lg:pt-48 lg:pb-16 ">
+    <section className="bg-white-100 flex justify-center pb-12" id="home">
+      <div className="flex items-center justify-center px-8 pt-20 lg:pt-28 lg:pb-16 ">
         <div className="w-5/6 md:w-1/2 ">
           <h1 className="md:leading-2 py-16 text-center font-title text-7xl tracking-wide text-gray-900 md:pb-0 md:text-8xl lg:text-7xl xl:text-8xl ">
             Helping Hands for Those With
