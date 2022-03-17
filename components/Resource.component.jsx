@@ -19,7 +19,8 @@ const Resource = ({ title, link, description }) => {
       <p className="mb-2">{description}</p>
       <a target="_blank" rel="noopener noreferrer" href={link}>
         <button className="mx-auto mt-4 block rounded-md bg-black px-4 py-2 text-lg font-semibold tracking-wide text-white transition duration-500 ease-in-out hover:-translate-y-1 hover:bg-blue-800 hover:shadow-lg">
-          Visit Resource
+          {/* TODO: Visit x, where x is the type of resource */}
+          Visit {`Resource`}
         </button>
       </a>
     </div>
