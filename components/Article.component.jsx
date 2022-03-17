@@ -11,7 +11,6 @@ const Article = ({ title, link, description }) => {
         <h1 className="mx-auto mb-8 text-center text-2xl font-[630] leading-none tracking-tighter text-neutral-600 group-hover:underline lg:text-3xl">
           {title}
         </h1>
-
         <p className="mx-auto text-neutral-600">{description}</p>
       </div>
     </a>
