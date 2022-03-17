@@ -111,7 +111,7 @@ const Navbar = () => {
                     className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
                     onClick={() => setIsOpen(!isOpen)}
                   >
-                    <a>Home</a>
+                    Home
                   </a>
                 </Link>
                 <Link href="/#about">
@@ -119,7 +119,7 @@ const Navbar = () => {
                     className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
                     onClick={() => setIsOpen(!isOpen)}
                   >
-                    <a>About</a>
+                    About
                   </a>
                 </Link>
                 <Link href="/#information">
@@ -127,7 +127,7 @@ const Navbar = () => {
                     className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
                     onClick={() => setIsOpen(!isOpen)}
                   >
-                    <a>Information</a>
+                    Information
                   </a>
                 </Link>
                 <Link href="/#contact">
@@ -135,7 +135,7 @@ const Navbar = () => {
                     className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
                     onClick={() => setIsOpen(!isOpen)}
                   >
-                    <a>Contact</a>
+                    Contact
                   </a>
                 </Link>
               </div>
