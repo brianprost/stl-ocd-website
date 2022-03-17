@@ -7,7 +7,7 @@ export const Articles = [
   },
   {
     title: "20 Secret Signs of Addiction",
-    url: "https://www.caring.com/articles/20-secret-signs-of-addiction",
+    link: "https://www.caring.com/articles/20-secret-signs-of-addiction",
     description: "",
   },
   {

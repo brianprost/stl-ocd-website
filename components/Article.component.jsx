@@ -1,28 +1,20 @@
 import React from "react";
+import { RiArticleFill } from "react-icons/ri";
 
-const Article = ({ article }) => {
+const Article = ({ title, link, description }) => {
   return (
-    <div
-      className="group my-4 flex h-full flex-col justify-between rounded-md bg-neutral-200 p-6 font-black opacity-80 shadow-md hover:opacity-100 md:my-auto"
-      key={article.title}
-    >
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:underline"
-        href={article.link}
-      >
-        <h3 className="mb-6 text-2xl font-bold tracking-normal text-blue-800">
-          {article.title}
-        </h3>
-      </a>
-      <p className="mb-2">{article.description}</p>
-      <a target="_blank" rel="noopener noreferrer" href={article.link}>
-        <button className="mx-auto mt-4 block rounded-md bg-black px-4 py-2 text-lg font-semibold tracking-wide text-white transition duration-500 ease-in-out hover:-translate-y-1 hover:shadow-lg">
-          Visit Article
-        </button>
-      </a>
-    </div>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <div className="group box-border h-full rounded-lg border border-blue-100 p-6 transition duration-200 ease-in-out hover:border-blue-800 hover:bg-blue-50 hover:bg-opacity-90">
+        <div className="mx-auto mb-5 flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-blue-50 group-hover:bg-blue-800">
+          <RiArticleFill className="text-xl text-blue-800 group-hover:text-blue-50" />
+        </div>
+        <h1 className="mx-auto mb-8 text-center text-2xl font-[630] leading-none tracking-tighter text-neutral-600 group-hover:underline lg:text-3xl">
+          {title}
+        </h1>
+
+        <p className="mx-auto text-neutral-600">{description}</p>
+      </div>
+    </a>
   );
 };
 
