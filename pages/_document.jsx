@@ -4,7 +4,30 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head></Head>
+        <Head>
+          <meta charSet="utf-8" />
+
+          <meta
+            name="description"
+            content="The digital home for the St. Louis OCD Support Group."
+          />
+          <meta name="author" content="Brian Prost" />
+          <meta property="og:title" content="St. Louis OCD Support Group" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://stlocd.org/" />
+          <meta
+            property="og:description"
+            content="The digital home for the St. Louis OCD Support Group."
+          />
+          <meta
+            property="og:image"
+            content="public/img/stl-ocd-main-logo.webp"
+          />
+
+          {/* FAVICONS */}
+          {/* TODO: fix favicon  */}
+          <link rel="shortcut icon" href="./favicon.svg" />
+        </Head>
         <body>
           <Main />
           <NextScript />
