@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useState, useEffect } from "react";
 import Resource from "../../components/Resource.component";
 import { Resources } from "../../data/Resources";
@@ -27,7 +28,10 @@ const ResourcesPage = () => {
 
   return (
     <>
-      <div className="container mx-auto w-full lg:py-20 antialiased md:px-4">
+      <Head>
+        <title>Resources - St. Louis OCD Support Group</title>
+      </Head>
+      <div className="container mx-auto w-full antialiased md:px-4 lg:py-20">
         <h1 className="my-10 text-center font-title text-6xl text-blue-800 drop-shadow-md lg:text-7xl">
           Resources
         </h1>
