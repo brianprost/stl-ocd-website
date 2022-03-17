@@ -3,6 +3,25 @@ import { Transition } from "@headlessui/react";
 import Link from "next/link";
 
 const Navbar = () => {
+  const links = [
+    {
+      title: "Home",
+      link: "/#home",
+    },
+    {
+      title: "About",
+      link: "/#about",
+    },
+    {
+      title: "Information",
+      link: "/#information",
+    },
+    {
+      title: "Contact",
+      link: "/#contact",
+    },
+  ];
+
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="mb-1 w-full object-cover">
@@ -10,7 +29,7 @@ const Navbar = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="container flex h-20 flex-wrap items-center justify-between">
             <div className="relative h-3/4 md:h-full">
-              <Link href="/">
+              <Link href={links[0].link}>
                 <a>
                   <img
                     src="./img/stl-ocd-nav-logo.webp"
@@ -23,27 +42,13 @@ const Navbar = () => {
             </div>
             <div className="hidden w-full md:block md:w-auto">
               <div className="mt-4 flex flex-col tracking-wider md:mt-0 md:flex-row md:space-x-8">
-                <Link href="/#home">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                    Home
-                  </a>
-                </Link>
-
-                <Link href="/#about">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                    About
-                  </a>
-                </Link>
-                <Link href="/#information">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                    Information
-                  </a>
-                </Link>
-                <Link href="/#contact">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                    Contact
-                  </a>
-                </Link>
+                {links.map(({ title, link }) => (
+                  <Link href={link} key={title}>
+                    <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
+                      {title}
+                    </a>
+                  </Link>
+                ))}
               </div>
             </div>
 
@@ -103,41 +108,19 @@ const Navbar = () => {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          {(ref) => (
+          {() => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
-                <Link href="/#home">
-                  <a
-                    className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Home
-                  </a>
-                </Link>
-                <Link href="/#about">
-                  <a
-                    className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    About
-                  </a>
-                </Link>
-                <Link href="/#information">
-                  <a
-                    className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Information
-                  </a>
-                </Link>
-                <Link href="/#contact">
-                  <a
-                    className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Contact
-                  </a>
-                </Link>
+              <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+                {links.map(({ title, link }) => (
+                  <Link href={link} key={`mobileMenu${title}`}>
+                    <a
+                      className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
+                      onClick={() => setIsOpen(!isOpen)}
+                    >
+                      {title}
+                    </a>
+                  </Link>
+                ))}
               </div>
             </div>
           )}
