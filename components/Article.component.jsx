@@ -3,7 +3,7 @@ import React from "react";
 const Article = ({ article }) => {
   return (
     <div
-      className="bg-neutral-200 font-black p-6 shadow-md rounded-md flex flex-col h-full justify-between my-4 md:my-auto group opacity-80 hover:opacity-100"
+      className="group my-4 flex h-full flex-col justify-between rounded-md bg-neutral-200 p-6 font-black opacity-80 shadow-md hover:opacity-100 md:my-auto"
       key={article.title}
     >
       <a
@@ -12,13 +12,13 @@ const Article = ({ article }) => {
         className="hover:underline"
         href={article.link}
       >
-        <h3 className="font-bold mb-6 text-2xl tracking-normal text-blue-800">
+        <h3 className="mb-6 text-2xl font-bold tracking-normal text-blue-800">
           {article.title}
         </h3>
       </a>
       <p className="mb-2">{article.description}</p>
       <a target="_blank" rel="noopener noreferrer" href={article.link}>
-        <button className="text-lg font-semibold tracking-wide text-white bg-black px-4 py-2 block mx-auto mt-4 rounded-md transition duration-500 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+        <button className="mx-auto mt-4 block rounded-md bg-black px-4 py-2 text-lg font-semibold tracking-wide text-white transition duration-500 ease-in-out hover:-translate-y-1 hover:shadow-lg">
           Visit Article
         </button>
       </a>

@@ -7,9 +7,9 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>St. Louis OCD Support Group</title>
-    </Head>
+      <Head>
+        <title>St. Louis OCD Support Group</title>
+      </Head>
       <Landing />
       <About />
       <Resources />
