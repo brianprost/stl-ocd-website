@@ -1,15 +1,21 @@
 const AboutSection = () => {
+  const stlOcdGoals = [
+    "Keep up with and share information and resources pertinent to Obsessive Compulsive Disorder",
+    "Educate the general public about Obsessive Compulsive Disorder",
+    "Reach persons with Obsessive Compulsive Disorder who have not sought treatment",
+  ];
+
   return (
     <section
       className="px-10 py-2 md:py-2 md:pb-16 lg:px-20 lg:pt-6 lg:pb-12 2xl:container 2xl:mx-auto"
       id="about"
     >
-      <div className="mt-16 flex flex-col justify-evenly gap-12 rounded-3xl border-4 border-gray-600 bg-gray-200 py-20 px-10 lg:mt-8 lg:flex-row lg:gap-8">
-        <div className="w-full lg:w-6/12 xl:w-5/12">
+      <div className="mt-16 flex flex-col justify-evenly gap-12 rounded-3xl border-4 border-gray-600 bg-gray-200 py-8 px-2 md:px-10 lg:mt-8 lg:flex-row lg:gap-8 lg:py-20">
+        <div className="w-full text-center text-lg lg:w-6/12 lg:text-left xl:w-5/12">
           <h2 className="font-title text-4xl text-blue-800 lg:text-6xl">
             Our mission.
           </h2>
-          <p className=" mt-4 p-8 text-base leading-6">
+          <p className=" mt-4 p-8 leading-6">
             We are dedicated to providing support to St. Louisians with OCD,
             their families, and friends
           </p>
@@ -17,26 +23,20 @@ const AboutSection = () => {
             Our goals.
           </h3>
           <ul className="flex flex-col p-4">
-            <li className="mb-2 flex flex-row">
-              <div className="flex flex-1 items-center rounded-md border border-white bg-gray-300 p-4">
-                Keep up with and share information and resources pertinent to
-                Obsessive Compulsive Disorder
-              </div>
-            </li>
-            <li className="mb-2 flex flex-row">
-              <div className="flex flex-1 items-center rounded-md border border-white bg-gray-300 p-4">
-                Educate the general public about Obsessive Compulsive Disorder
-              </div>
-            </li>
-            <li className="mb-2 flex flex-row">
-              <div className="flex flex-1 items-center rounded-md border border-white bg-gray-300 p-4">
-                Reach persons with Obsessive Compulsive Disorder who have not
-                sought treatment
-              </div>
-            </li>
+            {stlOcdGoals.map((goal, index) => (
+              <li
+                className="mb-2 box-border flex flex-col items-center justify-center gap-2 rounded-2xl border border-blue-200 p-4 tracking-tight lg:flex-row lg:gap-6"
+                key={index}
+              >
+                <span className="ml-2 mb-2 text-center font-title text-5xl text-blue-800 lg:text-6xl">
+                  {index + 1}
+                </span>
+                {goal}
+              </li>
+            ))}
           </ul>
         </div>
-        <div className="hidden w-full items-center md:hidden lg:flex lg:w-1/3 ">
+        <div className="hidden w-full items-center lg:flex lg:w-1/3 ">
           <img
             src="./img/st-louis-ocd-arch.webp"
             className="rounded-2xl "
@@ -44,6 +44,7 @@ const AboutSection = () => {
           />
         </div>
       </div>
+
       {/* history section */}
       <div className="mx-auto mt-20 max-w-4xl px-5 py-8 sm:px-6 lg:px-8">
         <h2 className="mb-20 text-center font-title text-6xl text-blue-700 underline underline-offset-auto ">
