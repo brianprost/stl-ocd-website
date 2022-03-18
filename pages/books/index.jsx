@@ -8,7 +8,7 @@ const BooksPage = () => {
       <Head>
         <title>Books - St. Louis OCD Support Group</title>
       </Head>
-      <div className="container mx-auto w-full md:px-4 lg:py-20">
+      <div className="container mx-auto w-full md:px-4 lg:pb-20">
         <h1 className="my-10 text-center font-title text-6xl text-blue-800 drop-shadow-md lg:text-7xl">
           Books
         </h1>
