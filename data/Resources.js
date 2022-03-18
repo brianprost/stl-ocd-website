@@ -1,5 +1,19 @@
 export const Resources = [
   {
+    title: "International OCD Foundation",
+    link: "https://iocdf.org/",
+    description:
+      "The IOCDF is the largest foundation dedicated to helping those affected by obsessive compulsive disorder (OCD) and related disorders live full and productive lives.",
+    tags: [
+      "ocd",
+      "non-ocd",
+      "events",
+      "getting-help",
+      "financial",
+      "medication",
+    ],
+  },
+  {
     title: "NeedyMeds",
     link: "http://www.needymeds.org/",
     description:
