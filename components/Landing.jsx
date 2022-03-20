@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <section className="bg-white-100 flex justify-center pb-12" id="home">
       <div className="flex items-center justify-center pt-20 sm:px-8 lg:pt-28 lg:pb-16 ">
-        <div className="w-5/6 lg:w-1/2 ">
+        <div className="w-5/6 lg:w-1/2 animatecss animatecss-fadeIn">
           <h1 className="md:leading-2 py-16 text-center font-title text-7xl tracking-wide text-gray-900 md:text-8xl lg:pb-0 ">
             Helping Hands for Those With
             <span className="text-blue-700"> OCD </span>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Book = ({ Author, ISBN13, Title, bookCover }) => {
   return (
-    <div className="my-4 flex h-full flex-col rounded-md bg-blue-100 bg-opacity-20 px-4 pt-2 text-center shadow-sm md:my-auto">
+    <div className="my-4 flex h-full flex-col rounded-md bg-blue-100 bg-opacity-20 px-4 pt-2 text-center shadow-sm md:my-auto animatecss animatecss-zoomIn">
       <img
         className="h-80 origin-center rounded-md object-cover"
         src={bookCover}

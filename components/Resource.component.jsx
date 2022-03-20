@@ -3,7 +3,7 @@ import React from "react";
 const Resource = ({ title, link, description }) => {
   return (
     <div
-      className="group my-4 flex h-full flex-col justify-between rounded-md bg-neutral-200 p-6 opacity-80 shadow-md hover:opacity-100 md:my-auto"
+      className="group my-4 flex h-full flex-col justify-between rounded-md bg-neutral-200 p-6 opacity-80 shadow-md animatecss animatecss-zoomIn hover:opacity-100 md:my-auto"
       key={title}
     >
       <a
