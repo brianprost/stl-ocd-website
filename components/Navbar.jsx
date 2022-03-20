@@ -88,7 +88,7 @@ const Navbar = () => {
                 {links.map(({ title, link }) => (
                   <Link href={link} key={`mobileMenu${title}`}>
                     <a
-                      className="block rounded-3xl border border-blue-800 bg-neutral-100 px-3 py-6 text-center font-sans text-2xl text-blue-700 hover:bg-blue-100"
+                      className="block rounded-3xl border border-blue-800 bg-blue-50 bg-opacity-100 px-3 py-6 text-center text-2xl font-light text-blue-700 hover:bg-blue-100"
                       onClick={() => setIsOpen(!isOpen)}
                     >
                       {title}
