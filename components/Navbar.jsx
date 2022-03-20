@@ -41,10 +41,10 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="hidden w-full md:block md:w-auto">
-              <div className="mt-4 flex flex-col tracking-wider md:mt-0 md:flex-row md:space-x-8">
+              <div className="mt-4 flex flex-col tracking-wider font-[320] md:mt-0 md:flex-row md:space-x-8">
                 {links.map(({ title, link }) => (
                   <Link href={link} key={title}>
-                    <a className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
+                    <a className="box-content block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 hover:underline underline-offset-4">
                       {title}
                     </a>
                   </Link>

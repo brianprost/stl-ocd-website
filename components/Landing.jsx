@@ -1,3 +1,5 @@
+import { BsFillCalendarWeekFill } from "react-icons/bs";
+
 const Landing = () => {
   const latestFlyerLink = "resources/2022-First-Quarter-Flyer.pdf";
 
@@ -11,8 +13,9 @@ const Landing = () => {
           </h1>
           <a href={latestFlyerLink}>
             <div className="lg:justify-left flex items-center justify-center">
-              <div className="m-10 w-full transform rounded-xl bg-blue-800 p-2 text-center text-2xl font-normal text-white shadow-lg  transition duration-500 ease-in-out hover:-translate-y-1 hover:bg-gray-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-4 lg:w-3/5">
-                📆 Upcoming Events
+              <div className="m-10 flex w-full transform items-center justify-center rounded-xl bg-blue-800 py-3 text-center text-xl font-light text-white shadow-lg transition duration-500 ease-in-out hover:-translate-y-1 hover:bg-gray-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-4 lg:w-3/5">
+                <BsFillCalendarWeekFill className="mr-3" />
+                View Upcoming Events
               </div>
             </div>
           </a>
