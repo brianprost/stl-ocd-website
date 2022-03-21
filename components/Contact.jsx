@@ -1,6 +1,12 @@
 import Link from "next/link";
 
 const ContactSection = () => {
+  const contactInformation = {
+    name: "St. Louis OCD Support Group",
+    email: "stlocd@swbell.net",
+    phoneNumber: "314-291-7566",
+  };
+
   return (
     <>
       <section className="bg-white-100" id="contact">
@@ -10,24 +16,20 @@ const ContactSection = () => {
               <h1 className="md:leading-2 pb-20 text-center font-title text-8xl tracking-wide text-gray-900 md:text-8xl lg:text-7xl xl:text-8xl">
                 <span className="text-blue-800">Contact</span> Us
               </h1>
-              {[
-                "St. Louis OCD Support Group",
-                "stlocd@swbell.net",
-                "314-291-7566",
-              ].map((item) => (
-                <h2
-                  className="text-center text-2xl tracking-tight text-gray-700"
-                  key={item}
+              {Object.keys(contactInformation).map((contactItem) => (
+                <h4
+                  className="select-all text-center text-2xl font-light"
+                  key={contactItem}
                 >
-                  {item}
-                </h2>
+                  {contactInformation[contactItem]}
+                </h4>
               ))}
               <div className="flex items-center justify-center">
                 <Link href="http://eepurl.com/dx6GCT">
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="m-8 mt-40 w-3/5 transform rounded-xl bg-gray-900 p-2 text-center text-2xl text-white shadow-lg transition duration-500 ease-in-out  hover:-translate-y-1 hover:bg-blue-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-4"
+                    className="m-8 mt-40 w-3/5 transform rounded-xl bg-gray-900 p-2 text-center text-2xl font-light text-white shadow-lg transition duration-500 ease-in-out hover:-translate-y-1 hover:bg-blue-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-4"
                   >
                     Join Our Newsletter
                   </a>
