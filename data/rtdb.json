@@ -1,0 +1,670 @@
+{
+  "articles": [
+    [
+      {
+        "id": 1,
+        "link": "http://www.psychologytoday.com/blog/beyond-the-doubt",
+        "title": "Beyond the Doubt",
+        "description": "Psychology Today - An inside perspective on life with OCD and the lessons of uncertainty."
+      },
+      {
+        "id": 2,
+        "title": "20 Secret Signs of Addiction",
+        "link": "https://www.caring.com/articles/20-secret-signs-of-addiction",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "link": "resources/nimhanxiety.pdf",
+        "title": "Anxiety Disorders",
+        "description": "a Pamphlet from the National Institute of Mental Health that outlines the symptoms, research, and treatment of the various Anxiety Disorders: panic disorder, obsessivecompulsive disorder (OCD), posttraumatic stress disorder (PTSD), social phobia (or social anxiety disorder), specific phobias, and generalized anxiety disorder (GAD)"
+      },
+      {
+        "id": 4,
+        "link": "resources/BodyDismorphicDisorder-PerceptionProblem.pdf",
+        "title": "Body Dysmorphic Disorder: A Problem of Perception?",
+        "description": "by Jamie Fuesner, M.D. from the Winter 2009 OCD Newsletter. This article outlines research into the symptoms and causes of Body Dysmorphic Disorder"
+      },
+      {
+        "id": 5,
+        "link": "resources/Body_Dysmorphic_Disorder_Update_Spring_2006.pdf",
+        "title": "Body Dysmorphic Disorder: Update on A Spectrum Disorder",
+        "description": "by Elana Golan, from the Sring 2006 OCD Newsletter. This article updates what is known about BDD, How to determine if someone has BDD, treatment options and relates the personal story of the author's daughter"
+      },
+      {
+        "id": 6,
+        "link": "resources/Clearing_Clutter_to_Create_Clarity.pdf",
+        "title": "Clearing Clutter to Create Clarity",
+        "description": "by DeniseLee, Professional Organizer, an article from the Java Journa"
+      },
+      {
+        "id": 7,
+        "link": "resources/Clutter_Looking_at_the_Meaning_behind_the_Mess.pdf",
+        "title": "Clutter, Looking at the Meaning Behind the Mess",
+        "description": "by Mary Mohler, an article from Ladies Home Journa"
+      },
+      {
+        "id": 8,
+        "link": "http://www.mssm.edu/research/centers/center-of-excellence-for-ocd/rating-scales",
+        "title": "CY-BOCS",
+        "description": "The complete Children's Yale-Brown Symptom Checklist and CY-BOCS Serverity Ratings Scale for both Obsessions and Compulsions. This is the test used by professional to evaluate the severity of OCD symptoms. This is a link to Mount Sinai School of Medicine download page to allow you to download the official copy of CY-BOCS. Please scroll to the bottom of the page"
+      },
+      {
+        "id": 9,
+        "link": "resources/DeepBrainStimulation1-2.pdf",
+        "title": "Deep Brain Stimulation for Highly Treatment-Resistant OCD by Darin Dougherty, M.D. and Benjamin Greenberg, M.D., Ph.D.",
+        "description": "Discussion of alternative methods of OCD Treatment using both invasive (surgical) and non-invasive (radiation) brain procedures. Particular attention is given to Deep Brain Stimulation and the results to date"
+      },
+      {
+        "id": 10,
+        "link": "resources/Deep_Brain_Stimulation_by_Jamie_Talan_review.pdf",
+        "title": "Deep Brain Stimulation, A New Treatment Shows Promise in the Most Difficult Cases, by Jamie Talan, reviewed by Jamie Feusner, MD.",
+        "description": ""
+      },
+      {
+        "id": 11,
+        "link": "resources/Defeating_Obsessive_Thoughts_Larry_Kiel.pdf",
+        "title": "Defeating Obsessive Thoughts (On Your Own Terms):",
+        "description": "by Larry Kiel, presented March 2002"
+      },
+      {
+        "id": 12,
+        "link": "resources/dont-try-harder-try-different.pdf",
+        "title": "Don't Try Harder, Try Different",
+        "description": "by Patrick McGrath, Ph.D. from the Fall 2008 OCD Newletter. Six ideas to incorporate in overcoming OCD"
+      },
+      {
+        "id": 13,
+        "link": "resources/Expert_Concensus_Treatment_OCD.pdf",
+        "title": "Expert Concensus Treatment Guidelines for Obsessive-Compulsive Disorder: A Guide for Patients and Families",
+        "description": "Treatment Guidelines from Expert Knowledge Systems"
+      },
+      {
+        "id": 14,
+        "link": "resources/Getting-the-Right-Treatment.pdf",
+        "title": "Getting the Right Treatment:",
+        "description": "A checklist of questions to ask your treatment provider to make sure they are qualified to treat you"
+      },
+      {
+        "id": 15,
+        "link": "resources/Good_Coping_Gone_Bad_Gary_Mitchell.pdf",
+        "title": "Good Coping Gone Bad:",
+        "description": "When coping strategies interfere with progress in therapy by Gary Mitchell, MSW., ICSW. St. Louis Behavioural Medicine Institut"
+      },
+      {
+        "id": 16,
+        "link": "resources/GuidelinesForLivingWithOCD.pdf",
+        "title": "Guidelines for Living with OCD:",
+        "description": "General Guidelines for family members living with a family member with OCD"
+      },
+      {
+        "id": 17,
+        "link": "resources/Hoarding-Fact-Sheet.pdf",
+        "title": "Hoarding Fact Sheet OCF:",
+        "description": "A concise description of hoarding and how it differs from collecting. Difficulties Hoarders face in getting rid of things. Hoarding and OCD. Help for Hoarders. Treatment, medication and further information"
+      },
+      {
+        "id": 18,
+        "link": "resources/I-Will-Never-Give-UP-Poem.pdf",
+        "title": "I Will Never Give Up",
+        "description": "Inspirational poem"
+      },
+      {
+        "id": 19,
+        "link": "resources/InformationHoardingTheNeedtoKnowandRemember.pdf",
+        "title": "Information Hoarding: The Need to Know and Remember:",
+        "description": "By Renae M. Reinardy, Psy.D., LP, Lakeside Center for Behavioral Change, Minnetonka, M"
+      },
+      {
+        "id": 20,
+        "link": "resources/IsYourChildWithOCDEligibleforSocialSecurityBenefits.pdf",
+        "title": "Is Your Child with OCD Eligible for Social Security Benefits?",
+        "description": "Eligibility for Supplemental Security Income or Social Security Disability Insurance, how to apply, and qualifications. Also information about Medicaid, Children with Special Needs, State Children's Health Insurance Programs and Employment Support Programs"
+      },
+      {
+        "id": 21,
+        "link": "resources/LivingWithSomeoneWhoHas-OCD.pdf",
+        "title": "Living with Someone Who Has OCD: Guidelines for Family Members",
+        "description": "by Barbara Livingston Van Noppen, Ph.D. and Michele Tortora Pato, M.D. from the Spring 2009 OCD Newsletter. Keys to interacting with a family member with OCD"
+      },
+      {
+        "id": 22,
+        "link": "resources/LivingWithYourWorstNightmare.pdf",
+        "title": "Living With Your Worst Nightmare:",
+        "description": "The Role of Mindfulness and Acceptance in Exposure and Response Preventio"
+      },
+      {
+        "id": 23,
+        "link": "resources/Medication.pdf",
+        "title": "Medication:",
+        "description": "How medications are named, brand vs generic. Types of medications used for OCD and Depression. Side effects and their management. Medication management and safety. Checklist to take to your doctor to make sure you get all the information about your medications"
+      },
+      {
+        "id": 24,
+        "link": "resources/NewOCDResearchonGlutamate.pdf",
+        "title": "New Horizons in OCD Research and the Potential Importance of Glutamate: Can We Develop Treatments That Work Better and Faster?",
+        "description": "by Michael H. Block, M.D., Vladimir Coric, M.D., and Christopher Pittenger, M.D. Ph.D. from the Spring 2009 OCD Newsletter. A promising new treatment for OCD"
+      },
+      {
+        "id": 25,
+        "link": "resources/NIMH_Facts_About_Anxiety_Disorders.pdf",
+        "title": "NIMH Anxiety Disorders",
+        "description": "A brief summary about the various types of Anxiety Disorders. Includes a short quiz to test your understanding"
+      },
+      {
+        "id": 26,
+        "link": "resources/OCF-Donation.pdf",
+        "title": "Obsessive Compulsive Foundation (OCF) Contribution Form",
+        "description": ""
+      },
+      {
+        "id": 27,
+        "link": "resources/OCD-and-Social-Security-Disability-Benefits.pdf",
+        "title": "OCD and Social Security Disability Benefits",
+        "description": "Discusses Social Security Benefit Programs, Medical Eligibility, Application Preparation and Applying and Receiving a decision"
+      },
+      {
+        "id": 28,
+        "link": "resources/JAN_OCD_and_the_Workplace.pdf",
+        "title": "OCD and the Workplace",
+        "description": "The Job Accomodation Network (JAN) explains how the Americans with Disabilities Act (ADA) can help individuals get and keep jobs"
+      },
+      {
+        "id": 29,
+        "link": "resources/OCD_For_Dummies_Review.pdf",
+        "title": "OCD For Dummies",
+        "description": "by Charles Elliot, PHd and Larua Smith, PHDA book review by Deb Osgood-Hynes, Psy"
+      },
+      {
+        "id": 30,
+        "link": "resources/New-OCD-Guide-for-College.pdf",
+        "title": "OCD Guide for College, Fall 2008",
+        "description": "Overcoming OCD A Guide for College Student"
+      },
+      {
+        "id": 31,
+        "link": "resources/OCD-Facts-NIMH.pdf",
+        "title": "OCD Fact Sheet from the National Institute of Mental Health:",
+        "description": "General information on OCD. How common is OCD. What causes OCD. Treatments available"
+      },
+      {
+        "id": 32,
+        "link": "resources/IOCDF_Launches_New_Website.pdf",
+        "title": "OCD International OCD Foundation Launches New Web Site",
+        "description": "New, improved and greatly expanded. Check out the new features and articles"
+      },
+      {
+        "id": 33,
+        "link": "resources/OCD-Providers-STL.pdf",
+        "title": "OCD Providers:",
+        "description": "A partial list of provider of treatment for OCD"
+      },
+      {
+        "id": 34,
+        "link": "resources/OCD_Resources.pdf",
+        "title": "OCD Resources:",
+        "description": "A list of resources available to obtain free or low cost medications, therapy and support"
+      },
+      {
+        "id": 35,
+        "link": "resources/OCD_Survival_Guide.pdf",
+        "title": "OCD Survival Guide:",
+        "description": "A guide to help the family and friends of someone with OCD. This book is generally available"
+      },
+      {
+        "id": 36,
+        "link": "resources/OCD-Treatment.pdf",
+        "title": "OCD Treatment:",
+        "description": "Prognosis, Primary Medications, Secondary Medication"
+      },
+      {
+        "id": 37,
+        "link": "resources/OCD-Tribe.pdf",
+        "title": "OCD Tribe:",
+        "description": "An Online Support Community for those with OCD of all age"
+      },
+      {
+        "id": 38,
+        "link": "resources/Pandas_Autoimmune.pdf",
+        "title": "PANDAS: A Model for Autoimmune Neuropsychiatric Disorders",
+        "description": "from Primary Psychiatry, written by Susan E. Swedo, MD, and Paul J. Grant, M"
+      },
+      {
+        "id": 39,
+        "link": "resources/PANDAS-Fact-Sheet.pdf",
+        "title": "PANDAS Pediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcus:",
+        "description": "A fact sheet written by Evelyn Stewart, MD, Massachusetts General Hospital. Diagnosis and Treatment"
+      },
+      {
+        "id": 40,
+        "link": "resources/Self-DirectedTreatmentforOCD.pdf",
+        "title": "Self-Directed Treatment for OCD:The Irony of Doing the Opposite",
+        "description": " by Paul R. Munford, Ph.D. Exposure, Ritual Prevention, and Awareness Exercises"
+      },
+      {
+        "id": 41,
+        "link": "resources/Someone_I_Care_About_OCD_What_Can_I_Do.pdf",
+        "title": "Someone I Care About Is Not Dealing With His OCD: What Can I Do About It?",
+        "description": "By Heidi J. Pollard, RN, MSN and C. Alec Pollard, Ph.D., Anxiety Disorders Center, Saint Louis Behavioral Medicine Institute and Saint Louis University"
+      },
+      {
+        "id": 42,
+        "link": "resources/Suggested-Reading-for-the-Family.pdf",
+        "title": "Suggested Reading for the Family",
+        "description": ""
+      },
+      {
+        "id": 43,
+        "link": "resources/12-Step-Prog-OCD-Recovery-OCA-12-Step-Order-Form.pdf",
+        "title": "The 12 Step Program and OCD Recovery",
+        "description": "Provides information on the OCA (Obsessive Compulsive Association) the their 12 Step Program to recovery"
+      },
+      {
+        "id": 44,
+        "link": "resources/ReviewofOCDAnswerBook.pdf",
+        "title": "The OCD Answer Book by Patrick McGrath, Ph.D. reviewed by Eric Storch, Ph.D.",
+        "description": "from the Winter 2009 OCD Newsletter"
+      },
+      {
+        "id": 45,
+        "link": "resources/RelationshipEating-Disorders-OCD-1-3.pdf",
+        "title": "The Relationship Between Eating Disorders and OCD: Part of the Spectrum",
+        "description": " by Fugen Neziroglu, Ph.D., ABBP and Jonathan Sandler, B"
+      },
+      {
+        "id": 46,
+        "link": "resources/TheThingInsideMyHead.pdf",
+        "title": "The Things Inside My Head: A Family's Journey through Mental Illness",
+        "description": "by Lois Chamber, reviewed by S. Evelyn Stewart, M.D"
+      },
+      {
+        "id": 47,
+        "link": "resources/Things-You-can-do-to-prepare-for-Treatment.pdf",
+        "title": "Things You can do to prepare for Treatment",
+        "description": "A checklist of items to review and perform before starting treatment for OCD. Prepared by C. Alec Pollard, Ph.D"
+      },
+      {
+        "id": 48,
+        "link": "resources/This-I-Do-For-Me.pdf",
+        "title": "This I Do For Me",
+        "description": "by Karen M. Curran from October 1995 OCD Newslette"
+      },
+      {
+        "id": 49,
+        "link": "resources/Understanding-Hoarding.pdf",
+        "title": "Understanding Hoarding",
+        "description": "by Debbie Kricensky, Resource Coordinator Problem Properties Unit, St. Louis County Public Work"
+      },
+      {
+        "id": 50,
+        "link": "resources/WhatMightBeCausingOCDSymptoms.pdf",
+        "title": "What Might be Causing OCD Symptoms?",
+        "description": "By Suk Won Kim, MD, University of Minnesota Medical School. Brain function and disfunction in OCD patients"
+      },
+      {
+        "id": 51,
+        "link": "resources/Why_Am_I_Not_Getting_Better.pdf",
+        "title": "Why Am I Not Getting Better?",
+        "description": "by Laurie Krauth, MA, LL"
+      },
+      {
+        "id": 52,
+        "link": "http://www.mssm.edu/research/centers/center-of-excellence-for-ocd/rating-scales",
+        "title": "Y-BOCS Symptom Checklist",
+        "description": "This is the complete Yale-Brown Obsessive-Compulsive Scale Symptom Checklist. This list is usually used by professionals for initial and ongoing evaluation of OCD symptoms in individuals. This is a link to Mount Sinai School of Medicine download page to allow you to download the official copy of Y-BOCS. Please scroll to the bottom of the page"
+      }
+    ]
+  ],
+  "books": [
+    {
+      "Author": ["E. Katia Moritz", "Jennifer Jablonsky"],
+      "ISBN13": "978-1882732722",
+      "Title": "Blink, Blink, Clop, Clop: An OCD Storybook",
+      "bookCover": "./img/book-covers/blink-blink-clop-clop-an-ocd-storybook.webp"
+    },
+    {
+      "Author": ["Tamar E. Chansky"],
+      "ISBN13": "978-0812931174",
+      "Title": "Freeing Your Child from Obsessive-Compulsive Disorder",
+      "bookCover": "./img/book-covers/freeing-your-child-from-obsessive-compulsive-disorder.webp"
+    },
+    {
+      "Author": ["Constance H. Foster"],
+      "ISBN13": "9780963907035",
+      "Title": "Kids Like Me: Children's Stories About Obsessive Compulsive Disorder",
+      "bookCover": "./img/book-covers/kids-like-me-children-s-stories-about-obsessive-compulsive-disorder.webp"
+    },
+    {
+      "Author": ["Gerald Roy Patterson"],
+      "ISBN13": "978-0878221301",
+      "Title": "Living With Children: New Methods for Parents and Teachers",
+      "bookCover": "./img/book-covers/living-with-children-new-methods-for-parents-and-teachers.webp"
+    },
+    {
+      "Author": ["John S. March, MD MPH", "Karen Mulle Friesen"],
+      "ISBN13": "978-1572302426",
+      "Title": "OCD in Children and Adolescents: A Cognitive-Behavioral Treatment Manual",
+      "bookCover": "./img/book-covers/ocd-in-children-and-adolescents-a-cognitive-behavioral-treatment-manual.webp"
+    },
+    {
+      "Author": ["Aureen Pinto Wagner"],
+      "ISBN13": "978-0967734736",
+      "Title": "Worried No More: Help and Hope for Anxious Children",
+      "bookCover": "./img/book-covers/worried-no-more-help-and-hope-for-anxious-children.webp"
+    },
+    {
+      "Author": ["Rena Benson", "Jose Arturo"],
+      "ISBN13": "978-0963907059",
+      "Title": "You Do That Too? Adolescents and OCD",
+      "bookCover": "./img/book-covers/you-do-that-too-adolescents-and-ocd.webp"
+    },
+    {
+      "Author": ["Rod Fadem"],
+      "ISBN13": "978-0974290058",
+      "Title": "Memoirs of a Born Shlepper: Never Give OCD a Third Thought",
+      "bookCover": "./img/book-covers/memoirs-of-a-born-shlepper-never-give-ocd-a-third-thought.webp"
+    }
+  ],
+  "resources": [
+    {
+      "title": "www.needymeds.org",
+      "link": "http://www.needymeds.org/",
+      "description": "This is a centralized website for those in need of assistance with paying for medicaitons.",
+      "tags": ["financial", "medication"]
+    },
+    {
+      "title": "ShowMeOCD",
+      "link": "https://showmeocd.wordpress.com/support-groups/",
+      "description": "Our parter OCD Support Group led by Gregg Sansone that meets on Wednesday evenings.",
+      "tags": ["ocd", "support-groups"]
+    },
+    {
+      "title": "Awareness Foundation for OCD and Related Disorders",
+      "link": "http://www.ocdawareness.com/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Anxiety Disorders Association of America",
+      "link": "http://www.adaa.org/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "The Anxiety-Free Child Program",
+      "link": "http://www.anxietyfreechildren.com/",
+      "description": "Advanced Strategies for Overcoming Your Child's Anxiety, developed by Rich Presta and Dr. Cheryl Lane.",
+      "tags": ["ocd"]
+    },
+
+    {
+      "title": "Boston University Anxiety Clinic's Website",
+      "link": "http://www.childanxiety.net/",
+      "description": "Contains a wealth of information and an excellent resource list.",
+      "tags": ["ocd", "pediactrics"]
+    },
+    {
+      "title": "BrainPhysics.com",
+      "link": "http://www.brainphysics.com/ocd.php",
+      "description": "An excellent source for information and quizes to assess OCD Symptoms, Severity and to find support groups and forums.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Child Anxiety Network",
+      "link": "http://www.childanxiety.net/",
+      "description": "Provides thorough, user-friendly information about child anxiety. It also provides direction for those who are not sure where to turn when they think their child or a child they know may need professional help to cope with anxiety.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Children of Hoarders",
+      "link": "http://childrenofhoarders.com/wordpress/",
+      "description": "Awareness, Understanding, and Support for Children of Hoarders.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Drugwatch.com",
+      "link": "http://www.drugwatch.com/",
+      "description": "Drug Interactions and Side Effects provides a comprehensive list of drugs used to treat OCD, Depression and other illnesses.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Intensive Treatment Providers",
+      "link": "http://www.ocfoundation.org/ITP.aspx, - A list maintained by the OCF (Obsessive-Compulsive Foundation",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Job Accomodation Network",
+      "link": "http://janweb.icdi.wvu.edu/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Lighthouse Press",
+      "link": "http://www.lighthouse-press.com/",
+      "description": "Resource for books, CDs and other aids for treating and coping with children with OCD for both families and clinicians.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Mental Health Crisis Services for Eastern Missouri",
+      "link": "http://www.bhrstl.org/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Menninger OCD Treatment Center",
+      "link": "http://www.menningerclinic.com/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "St. Louis Behavioral Medicine",
+      "link": "http://www.slbmi.com/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "St. Louis Obsessive Compulsive Anonymous",
+      "link": "http://www.stlocdsupport.com",
+      "description": "An excellent St. Louis support group.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Obsessive-Compulsive Foundation",
+      "link": "http://www.ocfoundation.org/",
+      "description": "A great resoure on OCD.",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Obsessive Compulsive Information Center",
+      "link": "http://www.miminc.org/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "Obsessive-Compulsive World",
+      "link": "http://www.ocd-world.org.uk/",
+      "description": "",
+      "tags": ["ocd"]
+    },
+    {
+      "title": "AddictionCenter.com",
+      "link": "http://addictioncenter.com/",
+      "description": "A free web information guide that connects addicts and their families with the help they need to put their lives together.",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Rx Dangers",
+      "link": "http://www.rxdangers.com/",
+      "description": "Practical Drug, Device, & Healthcare Safety Information",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "ADHD and Addiction - What is the Risk?",
+      "link": "https://www.discoveryplace.info/adhd-and-addiction-what-is-the-risk",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Autism and Addiction: Coping with and Treating Your Dual Diagnosis",
+      "link": "http://www.iaddiction.com/addiction/autism-addiction-coping-treating-dual-diagnosis/",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Drugs of Abuse: Interactive Exploration of Drug Effects on the Body",
+      "link": "http://learn.genetics.utah.edu/content/addiction/abuse/",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Treatment Approaches for Drug Addiction",
+      "link": "https://www.drugabuse.gov/publications/drugfacts/treatment-approaches-drug-addiction",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Overdose Emergency: How to Identify One and What to Do",
+      "link": "http://www.about-addiction.com/overdose-emergency-how-to-identify-one-and-what-to-do/",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "7 Tips for Mothers of Adult Addicts",
+      "link": "https://www.psychologytoday.com/blog/lifetime-connections/201410/7-tips-mothers-adult-addicts",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Addiction in the Waiting Room: How to Go to the Doctor in Sobriety",
+      "link": "http://www.discoveryplace.info/addiction-waiting-room-how-go-doctor-sobriety",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "10 Things I Wish I Knew at the Beginning of Sobriety",
+      "link": "https://www.thefix.com/content/10-things-i-wish-i-knew-beginning-sobriety",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Helping an Adult Family Member or Friend with a Drug or Alcohol Problem",
+      "link": "http://www.drugfree.org/want-help-adult-family-member-friend-drug-alcohol-problem-7-suggestions/",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "13 Sobering Facts About Teen Substance Abuse",
+      "link": "http://www.everydayhealth.com/kids-health-pictures/13-sobering-facts-about-teen-substance-abuse.aspx",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Boundaries with Teens: How to Address Alcohol and Drug Issues",
+      "link": "http://www.boundariesbooks.com/articles/boundaries-with-kids/alcohol-and-drugs-boundaries-with-teens/",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Dual Diagnosis",
+      "link": "http://www.dualdiagnosis.org/",
+      "description": "quality resource which addresses the strong relationship between substance abuse, addiction and mental health disorders.",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Recovery Resources",
+      "link": "http://soberrecovery.com/",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Trichotillomania Organization",
+      "link": "http://www.trich.org/",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "e-mail for children/adolescents and young adults who hoard",
+      "link": "mailto:chaos@ocfoundation.org",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Hoarding - Assistance with Hoarding Cleanup",
+      "link": "http://hoardingcleanup.com/missouri",
+      "description": "",
+      "tags": ["addiction"]
+    },
+    {
+      "title": "Tourette Syndrome Association",
+      "link": "http://www.tsa-usa.org/",
+      "description": "",
+      "tags": ["tourettes"]
+    },
+    {
+      "title": "The Guide to Securing Life-long Accommodations for Adult Children with Special Needs",
+      "link": "https://www.redfin.com/blog/2016/04/the-guide-to-securing-life-long-accommodations-for-adult-children-with-special-needs.html",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Teaching Your Child about Peers with Special Needs",
+      "link": "https://www.care.com/a/teaching-your-child-about-peers-with-special-needs-0812040913",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Creating the Optimal Living Environment for a Child with ADHD",
+      "link": "http://www.homeadvisor.com/r/creating-the-optimal-living-environment-for-a-child-with-adhd/",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Autism Service Dogs, Leash-On-Life",
+      "link": "http://www.tenderlovingcanines.org/programs/Autism-Service-Dogs.aspx",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Supports, Modifications, and Accommodations for Students with Disabilities",
+      "link": "http://www.parentcenterhub.org/repository/accommodations/",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "20 Incredible Colleges for Students with Special Needs",
+      "link": "http://www.bestcollegesonline.com/blog/20-incredible-colleges-for-special-needs-students/",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Career Guide for Students with Disabilities",
+      "link": "http://www.bestcolleges.com/resources/career-guide-for-students-with-disabilities",
+      "description": "focuses on pre & post graduation college-to-career strategies",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Paraquad",
+      "link": "http://www.paraquad.org/Programs/programs.html",
+      "description": "This organization provides numerous services for people with disabilities both physical and mental. Check out their Information and Referral page: http://www.paraquad.org/programs-and-services/independent-living-services/,information-and-referral/.",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "ConsumerSafety.org",
+      "link": "http://www.consumersafety.org/",
+      "description": "Safety and recall resource",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "Guide to Medial Assisting Careers for People with Disabilities",
+      "link": "https://www.medicalassistantdegrees.net/careers/disability-career-options/",
+      "description": "",
+      "tags": ["non-ocd"]
+    },
+    {
+      "title": "MalpracticeCenter.com",
+      "link": "http://malpracticecenter.com/",
+      "description": "resource for medical malpractice",
+      "tags": ["malpractice", "non-ocd"]
+    }
+  ]
+}
