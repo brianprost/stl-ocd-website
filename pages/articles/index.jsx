@@ -3,7 +3,7 @@ import Head from "next/head";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import { useList } from "react-firebase-hooks/database";
 import { ref, getDatabase } from "firebase/database";
-import { firebaseApp } from "../../firebase";
+import firebaseApp from "../../firebase";
 
 const database = getDatabase(firebaseApp);
 
