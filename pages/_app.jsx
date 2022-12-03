@@ -3,6 +3,8 @@ import "../styles/globals.css";
 import "@fontsource/italiana";
 import "@fontsource/work-sans/variable.css";
 
+import firebaseApp from "../firebase";
+
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
