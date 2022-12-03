@@ -1,10 +1,10 @@
-import firebase from 'firebase/app';
-import "firebase/database";
-import "firebase/analytics";
-import firebaseConfig from './firebase.config';
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+// import { getAnalytics } from "firebase/analytics"
+import firebaseConfig from "./firebase.config";
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseApp = initializeApp(firebaseConfig);
 
-firebase.analytics(firebaseApp)
+const db = getDatabase(firebaseApp);
 
 export default firebaseApp;
