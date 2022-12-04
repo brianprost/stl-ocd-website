@@ -2,7 +2,7 @@ import Head from "next/head";
 import Book from "../../components/Book.component";
 import { ref, getDatabase } from "firebase/database";
 import LoadingSpinner from "../../components/LoadingSpinner";
-import firebaseApp from "../../firebase";
+import { firebaseApp } from "../_app";
 import { useList } from "react-firebase-hooks/database";
 
 const database = getDatabase(firebaseApp);
