@@ -2,11 +2,7 @@ import Layout from "../components/Layout";
 import "../styles/globals.css";
 import "@fontsource/italiana";
 import "@fontsource/work-sans/variable.css";
-
-import firebase from "firebase/app";
-// import firebaseApp from "../firebase";
 import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
 
 export const firebaseApp = initializeApp({
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,

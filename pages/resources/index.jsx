@@ -8,7 +8,6 @@ import { firebaseApp } from "../_app";
 const database = getDatabase(firebaseApp);
 
 const ResourcesPage = () => {
-  // set database from the global firebase instance
   const [snapshots, loading, error] = useList(ref(database, "resources"));
 
   return (
