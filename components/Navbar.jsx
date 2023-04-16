@@ -32,24 +32,27 @@ const Navbar = () => {
           <div className="container flex h-20 flex-wrap items-center justify-between">
             <div className="relative h-3/4 md:h-full">
               <Link href={links[0].link}>
-                <a>
-                  <img
-                    src="./img/stl-ocd-nav-logo.webp"
-                    alt="st-louis-ocd-logo"
-                    className="h-full"
-                    onClick={() => setIsOpen(false)}
-                  />
-                </a>
+
+                <img
+                  src="./img/stl-ocd-nav-logo.webp"
+                  alt="st-louis-ocd-logo"
+                  className="h-full"
+                  onClick={() => setIsOpen(false)}
+                />
+
               </Link>
             </div>
             <div className="hidden w-full md:block md:w-auto">
               <div className="mt-4 flex flex-col font-[320] tracking-wider md:mt-0 md:flex-row md:space-x-8">
                 {links.map(({ title, link }) => (
-                  <Link href={link} key={title}>
-                    <a className="box-content block py-2 pr-4 pl-3 text-gray-700 underline-offset-4 hover:bg-gray-50 hover:underline md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
-                      {title}
-                    </a>
-                  </Link>
+                  (<Link
+                    href={link}
+                    key={title}
+                    className="box-content block py-2 pr-4 pl-3 text-gray-700 underline-offset-4 hover:bg-gray-50 hover:underline md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700">
+
+                    {title}
+
+                  </Link>)
                 ))}
               </div>
             </div>
@@ -86,14 +89,15 @@ const Navbar = () => {
             <div className="md:hidden" id="mobile-menu">
               <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                 {links.map(({ title, link }) => (
-                  <Link href={link} key={`mobileMenu${title}`}>
-                    <a
-                      className="block rounded-3xl border border-blue-800 bg-blue-50 bg-opacity-100 px-3 py-6 text-center text-2xl font-light text-blue-700 hover:bg-blue-100"
-                      onClick={() => setIsOpen(!isOpen)}
-                    >
-                      {title}
-                    </a>
-                  </Link>
+                  (<Link
+                    href={link}
+                    key={`mobileMenu${title}`}
+                    className="block rounded-3xl border border-blue-800 bg-blue-50 bg-opacity-100 px-3 py-6 text-center text-2xl font-light text-blue-700 hover:bg-blue-100"
+                    onClick={() => setIsOpen(!isOpen)}>
+
+                    {title}
+
+                  </Link>)
                 ))}
               </div>
             </div>
