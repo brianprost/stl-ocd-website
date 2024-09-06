@@ -19,6 +19,10 @@ const Navbar = () => {
       link: "/#information",
     },
     {
+      title: "Events",
+      link: "/upcoming-events",
+    },
+    {
       title: "Contact",
       link: "/#contact",
     },
