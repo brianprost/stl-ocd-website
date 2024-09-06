@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsFillCalendarWeekFill } from "react-icons/bs";
 
 const Landing = () => {
@@ -9,14 +10,14 @@ const Landing = () => {
             Helping Hands for Those With
             <span className="text-blue-700"> OCD </span>
           </h1>
-          <a href="/upcoming-events">
+          <Link href="/upcoming-events">
             <div className="flex items-center justify-center">
               <div className="m-10 flex w-full transform items-center justify-center gap-3 rounded-xl bg-blue-800 py-3 text-center text-md md:text-xl font-light text-white shadow-lg transition duration-500 ease-in-out hover:-translate-y-1 hover:bg-gray-900 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-offset-4 lg:w-3/5">
                 <BsFillCalendarWeekFill className="" />
                 View Upcoming Events
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
